@@ -1,0 +1,36 @@
+/**
+ * 对生成的行走方法的格式不满意的话，可以在Getmethod类的getway方法中修改。
+ */
+
+package com.jyu.KarelFF.think;
+
+import java.io.IOException;
+
+import com.jyu.KarelFF.tool.Directory;
+
+
+public class Start {
+	public static String run(String direction, String filename, int initX,
+			int initY, char dir, int targX, int targY) {
+		try {
+			// 问题文件及PDDL文件路径
+			String filePath = direction + "/" + filename;
+			String problemname = new MapToProblem().mapToProblem(filePath,
+					initX, initY, targX, targY);
+			String pddl = Directory.getDefConf() + Directory.getDefPDDL();
+			// 获取方法并返回运算时间
+			int args[] = {initX, initY, targX, targY};
+			String[] strs = Getmethod.getmethod(pddl, problemname, dir, args);
+//			problemname = strs[0];
+			return strs[1] + "\n" + strs[2];
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+			return "";
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			return "";
+		}
+	}
+
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map
+END
+Wall.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Wall.java
+END
+Direction.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Direction.java
+END
+Dimension.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Dimension.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Location.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Block.java
+END
+Map.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KarelFF/!svn/ver/10/r3.0/src/com/jyu/KarelFF/map/Map.java
+END

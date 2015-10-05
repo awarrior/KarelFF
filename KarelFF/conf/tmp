@@ -1,0 +1,13 @@
+Parsed Domain file F:\workspace\KarelFF [r3.0]\KarelFF\conf\domain.pddl successfully
+Parsed Problem file F:\workspace\KarelFF [r3.0]\KarelFF\maps\map_problem successfully
+Performing search as in FF - first considering EHC with only helpful actions
+4
+3
+2
+1
+(MoveEast Blk0101 Blk0201)
+(MoveEast Blk0201 Blk0301)
+(MoveEast Blk0301 Blk0401)
+(MoveEast Blk0401 Blk0501)
+Instantiation Time =		0.131sec
+Planning Time =	0.016sec
